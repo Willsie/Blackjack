@@ -17,11 +17,10 @@ public class Dealer {
     public Dealer() {
     }
 
-
     /**
      * Getter method for Dealer's hand
      *
-     * @return deaer's hand.
+     * @return dealer's hand.
      */
     public ArrayList<Card> getHand() {
         return this.dealerHand.getCards();
